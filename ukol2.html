@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Sčítač</title>
+	<title>Kalkulačka</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,11 +18,36 @@
         Číslo dvě
         <input type="number" name="cislo2">
     </label>
+    
+    <h1>Vyber operaci:</h1>
+ 
+        <label>
+            <input type="radio" name="scitani">
+            Sčítání
+        </label>
+ 
+ 
+        <label>
+            <input type="radio" name="odcitani">
+            Odčítání
+        </label>
+   
 
-    <div id="vysledek">
-        Výsledek:
-        <span></span>
-    </div>
+        <label>
+            <input type="radio" name="deleni">
+            Dělení
+        </label>
+  
+  
+        <label>
+            <input type="radio" name="nasobeni">
+            Násobení
+        </label>
+ 
+
+    <h1>Výsledek:</h1>
+        <span id ="vysledek"></span>
+    
 
 	<script src="ukol2.js"></script>
 </body>
